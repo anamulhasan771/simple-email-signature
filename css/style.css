@@ -1,0 +1,63 @@
+
+
+body {
+    font-family: arial;
+    font-size: 16px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+}
+table {
+    width: 410px;
+    background: #e1e1e1;
+}
+td {
+    border-right: 3px solid #0079ac;
+    width: 105px;
+    padding-right: 10px;
+    text-align: center;
+}
+td img {
+    border-radius: 50%;
+    border: 1px solid #0079ac;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 22px 1px 0 0px;
+    transform: translateX(-16px);
+}
+li a {
+    color: #3a3a3a;
+}
+
+td .two {
+  width: 305px;
+  padding: 0 0 5px 5px;
+}
+td.two strong span {
+    color: #0079ac;
+}
+td .two strong span {
+    color: #0079ac;
+}
+td .three {
+    padding: 5px 0 5px 5px;
+}
+td .three span {
+    color: #0079ac;
+}
+td.three span {
+    font-size: 14px;
+}

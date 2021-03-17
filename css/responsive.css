@@ -1,0 +1,131 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .mobile-menu-active{
+    opacity: 0;
+  }
+
+  .btn-area {
+    bottom: 88px;
+}
+
+}
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.mobile-menu-active{
+  opacity: 0;
+}
+.btn-area {
+  transform: translateY(-148px);
+}
+.btm-last-icon {
+  transform: translateX(189px);
+}
+.btn-bottom-left {
+  margin-left: 13%;
+}
+
+
+
+}
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .btn-area {
+    transform: translateY(-222px);
+    right: 6px;
+}
+.btn-bottom-left {
+  margin-left: 23%;
+}
+.btm-last-icon {
+  transform: translateX(212px);
+}
+
+
+}
+ 
+/* Extra small Device.
+@media  (max-width: 767px) { 
+
+
+} */
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+
+
+.btn-area {
+  right: 10px;
+
+}
+.btn-area {
+  transform: translateY(-108px);
+  margin-left: 11px;
+}
+.btn-bottom-left {
+  margin-left: -1%;
+}
+.btm-last-icon {
+  transform: translateX(429px);
+}
+
+
+}
+
+
+@media (max-width: 575.98px) 
+{
+  .landing-page-area {
+    height: 1000px;
+}
+  .land-right .btn-area {
+    transform: translateY(-542px);
+    left: 112px;
+}
+.land-left .btn-area {
+  left: 112px;
+  transform: translateY(-168px);
+}
+.btn-bottom-left {
+  margin-left: 19%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+/* responsive slider area */
